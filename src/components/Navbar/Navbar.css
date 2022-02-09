@@ -1,0 +1,14 @@
+.Navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 3.75rem;
+    overflow: auto;
+    background-image: linear-gradient(
+        to right,
+        deepskyblue,
+        mediumblue,
+        indigo
+    );
+    padding-right: 3rem;
+}
