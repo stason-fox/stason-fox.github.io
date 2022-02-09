@@ -1,0 +1,51 @@
+.Navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 3.75rem;
+    overflow: hidden;
+    background-image: linear-gradient(
+        to right,
+        deepskyblue,
+        mediumblue,
+        indigo
+    );
+    padding-right: 1.5rem;
+}
+
+.navbar-container {
+    display: flex;
+}
+
+li {
+    list-style: none;
+}
+
+.navlink {
+    text-decoration: none;
+    color: white;
+    font-size: 1.25rem;
+    padding: 0 1.5rem;
+}
+
+@media screen and (max-width: 720px) {
+    .navlink {
+        text-decoration: none;
+        color: white;
+        font-size: 1.25rem;
+        padding: 0 1rem;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .Navbar {
+        padding-right: 2rem;
+    }
+
+    .navlink {
+        text-decoration: none;
+        color: white;
+        font-size: 1.25rem;
+        padding: 0 0.5rem;
+    }
+}
